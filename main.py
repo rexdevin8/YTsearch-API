@@ -48,6 +48,3 @@ def ytsearch(keyword,counts):
 def ytsearch(keyword):
     p = youtube(keyword,5)
     return p
-
-if __name__== "__main__":
-    uvicorn.run(app,host="127.0.0.1", port=7000)
